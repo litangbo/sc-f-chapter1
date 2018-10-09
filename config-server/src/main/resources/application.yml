@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+#        配置git仓库
+        git:
+#          git仓库地址
+          uri: https://github.com/forezp/SpringcloudConfig/
+#          git仓库路径
+          search-paths: respo
+#          访问git仓库的用户名和密码
+#          若Git仓库为公开仓库，则可以不填写用户名和密码；若是私有仓库，则需要填写，本例子是公开仓库
+          username:
+          password:
+#      git仓库的分支
+      label: master
