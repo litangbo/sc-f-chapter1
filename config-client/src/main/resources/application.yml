@@ -11,3 +11,14 @@ spring:
       profile: dev
 #      配置服务中心网址
       uri: http://localhost:8888
+#高可用的分布式配置中心改造之处：指定服务注册中心地址-------------------------
+      discovery:
+#        从配置中心读取文件
+        enabled: true
+#        配置中心的servieId，即服务名
+        serviceId: config-server
+#服务注册地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

@@ -18,3 +18,10 @@ spring:
           password:
 #      git仓库的分支
       label: master
+#高可用的分布式配置中心改造之处：指定服务注册中心地址-------------------------
+eureka:
+  client:
+    serviceUrl:
+#      因为服务注册中心eureka-server的端口没有改成8889，所以还是用8761端口
+#      defaultZone: http://localhost:8889/eureka
+      defaultZone: http://localhost:8761/eureka
