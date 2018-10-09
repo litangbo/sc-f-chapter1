@@ -1,6 +1,10 @@
-[史上最简单的 SpringCloud 教程-方志朋](https://blog.csdn.net/forezp/article/details/70148833)
+参考资料：
 
-Spring Cloud Finchley.SR1; Spring Boot 2.0.5.RELEASE
+一、[Spring Cloud 官网Tutorial](http://cloud.spring.io/spring-cloud-static/Finchley.RELEASE/single/spring-cloud.html)
+
+二、[史上最简单的 SpringCloud 教程-方志朋](https://blog.csdn.net/forezp/article/details/70148833)
+
+    版本：Spring Cloud Finchley.SR1; Spring Boot 2.0.5.RELEASE；IDEA Ultimate 2018.1
 
 * [第一篇: 服务的注册与发现（Eureka）](https://blog.csdn.net/forezp/article/details/81040925)
 
