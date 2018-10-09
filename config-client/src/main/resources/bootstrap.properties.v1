@@ -1,10 +1,10 @@
 spring.application.name=config-client
-#Ö¸Ã÷Ô¶³Ì²Ö¿âµÄ·ÖÖ§
+#æŒ‡æ˜è¿œç¨‹ä»“åº“çš„åˆ†æ”¯
 spring.cloud.config.label=master
-#dev  ¿ª·¢»·¾³ÅäÖÃÎÄ¼ş
-#test ²âÊÔ»·¾³
-#pro  ÕıÊ½»·¾³
+#dev  å¼€å‘ç¯å¢ƒé…ç½®æ–‡ä»¶
+#test æµ‹è¯•ç¯å¢ƒ
+#pro  æ­£å¼ç¯å¢ƒ
 spring.cloud.config.profile=dev
-#Ö¸Ã÷ÅäÖÃ·şÎñÖĞĞÄµÄÍøÖ·
+#æŒ‡æ˜é…ç½®æœåŠ¡ä¸­å¿ƒçš„ç½‘å€
 spring.cloud.config.uri= http://localhost:8888/
 server.port=8881

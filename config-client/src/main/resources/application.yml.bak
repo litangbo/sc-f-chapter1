@@ -1,9 +1,10 @@
 server:
-  port: 8882
+  port: 8881
 spring:
   application:
     name: config-client
 #  RabbitMq的地址、端口、用户名、密码
+#  默认安装的RabbitMQ监听端口是：5672
   rabbitmq:
     host: localhost
     port: 5672

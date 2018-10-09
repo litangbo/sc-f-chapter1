@@ -54,6 +54,11 @@
 
 * [第八篇: 消息总线(Spring Cloud Bus)](https://blog.csdn.net/forezp/article/details/81041062)
 
+    - [RabbitMQ官网](http://www.rabbitmq.com/)
+    - [RabbitMQ入门使用](https://www.cnblogs.com/SFLYQ/p/7358283.html)
+    - [config-client](https://github.com/litangbo/sc-f-chapter1/tree/master/config-client)      麻烦！！！在properties文件中配置，用POSTMAN提交刷新请求http://localhost:8881/actuator/bus-refresh
+        - http://localhost:8881/hi
+
 * [第九篇: 服务链路追踪(Spring Cloud Sleuth)](https://blog.csdn.net/forezp/article/details/81041078)
 
 * [第十篇: 高可用的服务注册中心](https://blog.csdn.net/forezp/article/details/81041101)

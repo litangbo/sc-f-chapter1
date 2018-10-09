@@ -12,6 +12,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientApplication {
 
+    /**
+     * 消息总线刷新配置文件
+     * http://localhost:8881/actuator/bus-refresh
+     * 这是Spring cloud bus提供的endpoint，名字不能改
+     *
+     * 另外，/actuator/bus-refresh接口可以指定服务，即使用"destination"参数，
+     * 比如 “/actuator/bus-refresh?destination=customers:**” 即刷新服务名为customers的所有服务。
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(ConfigClientApplication.class, args);
     }
