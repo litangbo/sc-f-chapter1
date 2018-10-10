@@ -36,4 +36,5 @@ public class ServiceHiApplication {
     public String home(@RequestParam(value = "name", defaultValue = "LiTangBo") String name){
         return "Hi "+name+", i am from port: "+port;
     }
+
 }

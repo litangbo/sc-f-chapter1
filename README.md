@@ -61,6 +61,15 @@
 
 * [第九篇: 服务链路追踪(Spring Cloud Sleuth)](https://blog.csdn.net/forezp/article/details/81041078)
 
+    - [zipkin-server jar下载](https://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/) 启动服务追踪Server
+        - 链接: https://pan.baidu.com/s/1w614Z8gJXHtqLUB6dKWOpQ 密码: 26pf
+        - java -jar zipkin-server-2.10.1-exec.jar
+        - http://localhost:9411/
+    - [service-hi2](https://github.com/litangbo/sc-f-chapter1/tree/master/service-hi2) 新建模块，引入zipkin依赖 8988
+        - http://localhost:8988/hi
+    - [service-miya](https://github.com/litangbo/sc-f-chapter1/tree/master/service-miya) 新建模块，引入zipkin依赖 8989
+        - http://localhost:8989/miya
+
 * [第十篇: 高可用的服务注册中心](https://blog.csdn.net/forezp/article/details/81041101)
 
 * [第十二篇: 断路器监控(Hystrix Dashboard)](https://blog.csdn.net/forezp/article/details/81041113)
